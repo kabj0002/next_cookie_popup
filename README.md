@@ -1,3 +1,14 @@
+Ændringer jeg har lavet i projektet:
+
+- Jeg har startet med at lave et nyt projekt i repositories (github)
+- Derefter clonede jeg prjektet i VS codes
+- Derefter gennemgik jeg projektet for at finde hvad der skal slettes.
+  Jeg har slettet:
+- Svg filerne i public mappen
+- Indholdet i page.js og returnet en <div> for at ikke få error
+- Package-lock.json
+- Favicon.svg og route.js
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
