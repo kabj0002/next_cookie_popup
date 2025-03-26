@@ -15,7 +15,7 @@ export default function Home() {
         <LikeButton />
       </div>
       <div class="cookies_box">
-        <Cookies class="cookies" />
+        <Cookies />
       </div>
     </div>
   );

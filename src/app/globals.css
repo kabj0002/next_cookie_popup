@@ -24,12 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .cookies_box {
-  display: flex;
-  justify-content: end;
-  margin-top: auto; /*Skal placere box nederste højre hjørne, men gør ikke?*/
-  margin-right: 1rem;
-  align-self: flex-end;
+  position: fixed; /* Fast placering på skærmen */
+  bottom: 1rem; /* Afstand fra bunden */
+  right: 1rem; /* Afstand fra højre */
+  display: flex; /* Sikrer flex-styling */
+  justify-content: end; /* Placerer indhold mod højre */
 
   .cookies {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -41,6 +42,12 @@ body {
     padding: 1rem;
     display: flex;
     flex-direction: column;
+
+    /* justify-content: end;
+  margin-top: auto; /*Skal placere box nederste højre hjørne, men gør ikke?*/
+    /*margin-right: 1rem;
+  align-self: flex-end;
+  position: fixed; */
 
     .icons {
       display: flex;
