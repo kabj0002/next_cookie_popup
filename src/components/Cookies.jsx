@@ -6,9 +6,9 @@ import { RxCross2 } from "react-icons/rx";
 
 const Cookies = () => {
   return (
-    <div class="cookies">
-      <div class="icons">
-        <LiaCookieBiteSolid class="cookie-icon" />
+    <div className="cookies">
+      <div className="icons">
+        <LiaCookieBiteSolid className="cookie-icon" />
         <RxCross2 />
       </div>
       <div>
