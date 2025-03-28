@@ -71,6 +71,7 @@ body {
       border-radius: 7px;
       height: fit-content;
       padding: 0.3rem 2rem 0.3rem 2rem;
+      cursor: pointer;
     }
   }
 }
